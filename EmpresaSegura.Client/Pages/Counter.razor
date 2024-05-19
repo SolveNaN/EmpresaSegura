@@ -1,0 +1,37 @@
+﻿@page "/counter"
+@using Microsoft.AspNetCore.Authorization
+@inject HttpClient Http
+@using System.Net.Http.Headers;
+@inject IJSRuntime JS
+
+@attribute [Authorize]
+
+<PageTitle>Counter</PageTitle>
+<Registro />
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="UsoSeguridad">Click me</button>
+<h1>
+    @RespuestaControlador
+</h1>
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+    string token;
+    string RespuestaControlador = "procesando...";
+    async Task UsoSeguridad()
+    {
+        token = await JS.InvokeAsync<string>("localStorage.getItem", "Token");
+        Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+        var respuestaBasedatos = await Http.GetStringAsync("api/Usuario/ConexionServidor");
+        RespuestaControlador = respuestaBasedatos;
+
+    }
+
+}

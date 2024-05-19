@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dagoberto\\Downloads\\EmpresaSegura\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B768BA54-5DC1-44D4-8FCC-3B727B5A471B}|EmpresaSegura\\EmpresaSegura.csproj|c:\\users\\dagoberto\\downloads\\empresasegura\\empresasegura\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B768BA54-5DC1-44D4-8FCC-3B727B5A471B}|EmpresaSegura\\EmpresaSegura.csproj|solutionrelative:empresasegura\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBF1E0-5E89-43A0-93E9-0B9A8A0962B1}|EmpresaSegura.Client\\EmpresaSegura.Client.csproj|c:\\users\\dagoberto\\downloads\\empresasegura\\empresasegura.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFBF1E0-5E89-43A0-93E9-0B9A8A0962B1}|EmpresaSegura.Client\\EmpresaSegura.Client.csproj|solutionrelative:empresasegura.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B768BA54-5DC1-44D4-8FCC-3B727B5A471B}|EmpresaSegura\\EmpresaSegura.csproj|c:\\users\\dagoberto\\downloads\\empresasegura\\empresasegura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B768BA54-5DC1-44D4-8FCC-3B727B5A471B}|EmpresaSegura\\EmpresaSegura.csproj|solutionrelative:empresasegura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\Downloads\\EmpresaSegura\\EmpresaSegura.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "EmpresaSegura.Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Dagoberto\\Downloads\\EmpresaSegura\\EmpresaSegura.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "EmpresaSegura.Client\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T05:08:15.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\Downloads\\EmpresaSegura\\EmpresaSegura\\Program.cs",
+              "RelativeDocumentMoniker": "EmpresaSegura\\Program.cs",
+              "ToolTip": "C:\\Users\\Dagoberto\\Downloads\\EmpresaSegura\\EmpresaSegura\\Program.cs",
+              "RelativeToolTip": "EmpresaSegura\\Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwEMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:06:15.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\Downloads\\EmpresaSegura\\EmpresaSegura\\Controller\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "EmpresaSegura\\Controller\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Dagoberto\\Downloads\\EmpresaSegura\\EmpresaSegura\\Controller\\UsuarioController.cs",
+              "RelativeToolTip": "EmpresaSegura\\Controller\\UsuarioController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:03:57.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

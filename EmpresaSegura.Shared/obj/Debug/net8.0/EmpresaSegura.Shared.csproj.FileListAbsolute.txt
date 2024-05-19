@@ -1,0 +1,11 @@
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\bin\Debug\net8.0\EmpresaSegura.Shared.deps.json
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\bin\Debug\net8.0\EmpresaSegura.Shared.dll
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\bin\Debug\net8.0\EmpresaSegura.Shared.pdb
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\obj\Debug\net8.0\EmpresaSegura.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\obj\Debug\net8.0\EmpresaSegura.Shared.AssemblyInfoInputs.cache
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\obj\Debug\net8.0\EmpresaSegura.Shared.AssemblyInfo.cs
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\obj\Debug\net8.0\EmpresaSegura.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\obj\Debug\net8.0\EmpresaSegura.Shared.dll
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\obj\Debug\net8.0\refint\EmpresaSegura.Shared.dll
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\obj\Debug\net8.0\EmpresaSegura.Shared.pdb
+C:\Users\Dagoberto\Downloads\EmpresaSegura\EmpresaSegura.Shared\obj\Debug\net8.0\ref\EmpresaSegura.Shared.dll

@@ -1,0 +1,29 @@
+﻿@using EmpresaSegura.Shared
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject IJSRuntime JS
+@inject HttpClient Http
+
+
+<h3>Login</h3>
+<br />
+<label>Usuario</label>
+<input type="text" class="form-control" @bind-value=usuario.Correo />
+<label>Clave</label>
+<input type="password" class="form-control" @bind-value=usuario.Password />
+<br />
+<button class="btn btn-success" @onclick=IniciarSesion>Ingresar</button>
+
+@code {
+    string token = null;
+
+
+    UsuarioDTO usuario = new UsuarioDTO();
+    async Task IniciarSesion()
+    {
+        var resultado = await Http.PostAsJsonAsync("api/Usuario/Login", usuario);
+        token = await resultado.Content.ReadAsStringAsync();
+        await JS.InvokeVoidAsync("localStorage.setItem", "Token", token);
+        await AuthenticationStateProvider.GetAuthenticationStateAsync();
+    }
+}

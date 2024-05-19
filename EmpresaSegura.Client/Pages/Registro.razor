@@ -1,0 +1,21 @@
+﻿@using EmpresaSegura.Shared
+@inject HttpClient Http
+<h3>Registro</h3>
+<br />
+<label>Ingresar Usuario</label>
+<input type="text" class="form-control" @bind-value=nuevoUsuario.Correo />
+<label>Password</label>
+<input type="text" class="form-control" @bind-value=nuevoUsuario.Password />
+<br />
+<button class="btn btn-success" @onclick=Registrar>Registrar</button>
+<p>@Respuesta</p>
+
+@code {
+    UsuarioDTO nuevoUsuario = new UsuarioDTO();
+    string Respuesta = "Porcesando...";
+    async Task Registrar()
+    {
+        var resultado = await Http.PostAsJsonAsync("api/Usuario/Registrar", nuevoUsuario);
+        Respuesta = await resultado.Content.ReadAsStringAsync();
+    }
+}
